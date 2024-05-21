@@ -2,19 +2,23 @@
 
 A robust and efficient movie recommender system built using machine learning techniques to suggest movies based on user preferences.
 
-Features
-Personalized Recommendations: Provides movie recommendations tailored to user preferences.
-Collaborative Filtering: Utilizes user-user and item-item collaborative filtering for accurate suggestions.
-Content-Based Filtering: Recommends movies based on content similarity.
-Hybrid Approach: Combines collaborative and content-based filtering for enhanced recommendations.
-Installation
+**Features**
+
+**Personalized Recommendations:** Provides movie recommendations tailored to user preferences.
+**Collaborative Filtering: **Utilizes user-user and item-item collaborative filtering for accurate suggestions.
+**Content-Based Filtering:** Recommends movies based on content similarity.
+**Hybrid Approach:** Combines collaborative and content-based filtering for enhanced recommendations.
+
+**Installation**
 Clone the repository:
 
 sh
+
 Copy code
 git clone https://github.com/sahilkumar12334/movie-recommender-system.git
 cd movie-recommender-system
-Install dependencies:
+
+**Install dependencies:**
 
 sh
 Copy code
@@ -34,11 +38,14 @@ Generate recommendations:
 sh
 Copy code
 python recommend.py --user_id <USER_ID>
-Project Structure
+
+**Project Structure**
+
 data/: Contains the movie and user data files.
 models/: Includes the trained models and machine learning algorithms.
 notebooks/: Jupyter notebooks for exploratory data analysis and testing.
 scripts/: Python scripts for data preprocessing, model training, and recommendations.
 requirements.txt: Lists the required Python packages.
+
 Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
